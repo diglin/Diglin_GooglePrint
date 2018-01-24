@@ -25,26 +25,6 @@ OSL v3.0
 
 ## Installation
 
-### Via MagentoConnect
-
-NaN
-
-### Manually
-
-```
-git clone git@github.com:diglin/Diglin_GooglePrint.git
-git submodule init
-git submodule fetch
-```
-
-Then copy the files and folders in the corresponding Magento folders
-Do not forget the folder "lib"
-
-### Via modman
-
-- Install [modman](https://github.com/colinmollenhour/modman)
-- Use the command from your Magento installation folder: `modman clone git@github.com:diglin/Diglin_GooglePrint.git`
-
 #### Via Composer
 
 - Install [composer](http://getcomposer.org/download/)
@@ -53,7 +33,7 @@ Do not forget the folder "lib"
 ```
  {
     "require" : {
-        "diglin/Diglin_GooglePrint": "1.*"
+        "diglin/diglin_googleprint": "1.*"
     },
     "repositories" : [
         {

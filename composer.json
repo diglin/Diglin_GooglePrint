@@ -1,0 +1,25 @@
+{
+    "name": "diglin/diglin_googleprint",
+    "description": "GooglePrint module for Magento 1.x",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Sylvain Rayé",
+            "email": "support@diglin.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php":">=5.6",
+        "ext-curl":">=5.6",
+        "google/apiclient": "^2.0",
+        "magento-hackathon/magento-composer-installer": "3.0.*"
+    },
+    "repositories": [
+        {
+            "type":"composer",
+            "url":"https://packages.firegento.com"
+        }
+    ]
+}

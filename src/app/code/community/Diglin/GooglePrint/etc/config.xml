@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Diglin GmbH - Switzerland
+ *
+ * @author      Sylvain Rayé <support at diglin.com>
+ * @category    Diglin
+ * @package     Diglin_GooglePrint
+ * @copyright   Copyright (c) Diglin (http://www.diglin.com)
+ */
+ -->
+<config>
+    <modules>
+        <Diglin_GooglePrint>
+            <version>1.0.0</version>
+        </Diglin_GooglePrint>
+    </modules>
+
+    <default>
+        <diglin_googleprint>
+            <general>
+                <active>1</active>
+            </general>
+        </diglin_googleprint>
+    </default>
+
+    <global>
+        <models>
+            <diglin_googleprint>
+                <class>Diglin_GooglePrint_Model</class>
+                <resourceModel>diglin_googleprint_resource</resourceModel>
+            </diglin_googleprint>
+            <diglin_googleprint_resource>
+                <class>Diglin_GooglePrint_Model_Resource</class>
+            </diglin_googleprint_resource>
+        </models>
+        <blocks>
+            <diglin_googleprint>
+                <class>Diglin_GooglePrint_Block</class>
+            </diglin_googleprint>
+        </blocks>
+        <helpers>
+            <diglin_googleprint>
+                <class>Diglin_GooglePrint_Helper</class>
+            </diglin_googleprint>
+        </helpers>
+    </global>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Diglin_GooglePrint after="Mage_Adminhtml">Diglin_GooglePrint_Adminhtml</Diglin_GooglePrint>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

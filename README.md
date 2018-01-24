@@ -32,7 +32,7 @@ NaN
 ### Manually
 
 ```
-git clone git@github.com:diglin/Diglin_Swisspost.git
+git clone git@github.com:diglin/Diglin_GooglePrint.git
 git submodule init
 git submodule fetch
 ```
@@ -43,7 +43,7 @@ Do not forget the folder "lib"
 ### Via modman
 
 - Install [modman](https://github.com/colinmollenhour/modman)
-- Use the command from your Magento installation folder: `modman clone git@github.com:diglin/Diglin_Swisspost.git`
+- Use the command from your Magento installation folder: `modman clone git@github.com:diglin/Diglin_GooglePrint.git`
 
 #### Via Composer
 
@@ -53,12 +53,12 @@ Do not forget the folder "lib"
 ```
  {
     "require" : {
-        "diglin/diglin_swisspost": "1.*"
+        "diglin/Diglin_GooglePrint": "1.*"
     },
     "repositories" : [
         {
             "type": "vcs",
-            "url": "git@github.com:diglin/Diglin_Swisspost.git"
+            "url": "git@github.com:diglin/Diglin_GooglePrint.git"
         }
     ]
  }
@@ -70,14 +70,14 @@ Do not forget the folder "lib"
 
 ### Modman
 
-Modman can only remove files. So you can run the command `modman remove Diglin_Swisspost` from your Magento root project.
+Modman can only remove files. So you can run the command `modman remove Diglin_GooglePrint` from your Magento root project.
 
 ### Manually
 
 Remove the files or folders located into your Magento installation:
 ```
-app/etc/modules/Diglin_Swisspost.xml
-app/code/community/Diglin/Swisspost
+app/etc/modules/Diglin_GooglePrint.xml
+app/code/community/Diglin/GooglePrint
 ```
 
 ## Author

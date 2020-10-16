@@ -6,7 +6,7 @@ Allow to create print document via GooglePrint.
 
 ## Documentation
 
-TODO
+Google Print will be abandoned on 31.12.2020
 
 ## License
 
